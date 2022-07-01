@@ -6,16 +6,16 @@
 
 *-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 '''
-
+# Importar librerias
 import os, time, platform
-from colorama import Fore, Back, Style
+from colorama import Fore, Back, Style # De colorama importamos Tipo de letra, colores de fondo y colores de letra
 
-Sistemas= ["Windows", "Linux", "Mac"]
+Sistemas= ["Windows", "Linux", "Mac"] # Lista de sistemas operativos
 
-class funciones:
+class funciones: # Declaro la clase funiones
 
-	def __init__(self):
-		self.Color= ["VERDE", "AZUL", "AMARILLO", "CLASICO", "CELESTE", "PREDERTERMINADO", "BASICO"]
+	def __init__(self): # Constructor
+		self.Color= ["VERDE", "AZUL", "AMARILLO", "CLASICO", "CELESTE", "PREDERTERMINADO", "BASICO"] #Lista de temas de colores
 
 	'''Funciones varias
 	Limpiar: Limpia la consola
